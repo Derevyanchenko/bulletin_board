@@ -1,0 +1,72 @@
+// main vacancies
+
+.vacancies {
+
+  &__wrapper {
+    margin-top: 30px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px #dadada;
+  }
+
+  &__title {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 600;
+  }
+
+  &__item {
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    &-title {
+      font-size: 20px;
+      display: block;
+      color: #3f51b5;
+      margin-bottom: 20px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    &-text {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    &-content {
+      max-width: 85%;
+      flex: 0 0 85%;
+    }
+
+    &-info {
+      max-width: 15%;
+      flex: 0 0 15%;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    &-price {
+      color: #00c851;
+      font-size: 26px;
+    }
+
+  }
+
+  .view-all {
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+    max-width: 320px;
+    font-size: 14px;
+    padding: 13px;
+  }
+
+}
