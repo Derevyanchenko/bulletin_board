@@ -313,3 +313,148 @@ main {
   font-size: 14px;
   padding: 13px;
 }
+
+.add {
+  padding: 50px 0;
+}
+
+.add__title {
+  margin-bottom: 30px;
+}
+
+.add__form .btn {
+  margin-left: 0;
+  margin-top: 35px;
+}
+
+.add__wrapper {
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 30px #dadada;
+  box-shadow: 0 4px 30px #dadada;
+  padding: 20px;
+}
+
+.add__wrapper .row {
+  margin: 0;
+}
+
+.single {
+  padding: 50px 0;
+}
+
+.single .row {
+  margin: 0;
+}
+
+.single hr {
+  display: block;
+  margin: 30px 0;
+}
+
+.single__wrapper {
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 30px #dadada;
+  box-shadow: 0 4px 30px #dadada;
+  padding: 20px;
+}
+
+.single__title {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.single__text {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.author__name {
+  font-size: 18px;
+  color: #3f51b5;
+}
+
+.request__title {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.jobs__form {
+  max-width: 480px;
+}
+
+.jobs__form-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jobs__form-search .input {
+  width: 100%;
+}
+
+.jobs__form-search .input input {
+  height: 35px;
+  margin-bottom: 0;
+}
+
+.jobs__form-search .btn {
+  padding: 8px 43px;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.jobs__form-bottom {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.jobs__form-bottom .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.jobs__form-bottom .price input {
+  max-width: 130px;
+  height: 26px;
+  margin: 0 8px;
+  font-size: 12px;
+}
+
+.jobs .single__title {
+  margin-bottom: 30px;
+}
+
+.jobs .vacancies__item:first-child {
+  border-top: none;
+}
+
+.jobs .vacancies__item:last-child {
+  border-bottom: none;
+}

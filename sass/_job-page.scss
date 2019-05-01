@@ -1,0 +1,56 @@
+// jobs
+
+.jobs {
+
+  &__form {
+    max-width: 480px;
+    &-search {
+      display: flex;
+      .input {
+        width: 100%;
+        input {
+          height: 35px;
+          margin-bottom: 0;
+        }
+      }
+      .btn {
+        padding: 8px 43px;
+        margin-left: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    &-bottom {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .price {
+        display: flex;
+        align-items: center;
+        input {
+          max-width: 130px;
+          height: 26px;
+          margin: 0 8px;
+          font-size: 12px;
+        }
+      }
+    }
+
+  }
+
+  .single__title {
+    margin-bottom: 30px;
+  }
+
+  .vacancies__item {
+    &:first-child {
+      border-top: none;
+    }
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+}
